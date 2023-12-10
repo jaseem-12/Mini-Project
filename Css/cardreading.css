@@ -1,0 +1,20 @@
+body {
+    margin-top: 3%;
+}
+h3{
+    color: rgb(207, 13, 13);
+    text-decoration: underline;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    padding: 7px;
+    text-align: center;
+
+
+}
+p{
+    color: white;
+}

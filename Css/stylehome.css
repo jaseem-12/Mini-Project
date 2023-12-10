@@ -1,0 +1,113 @@
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.hero-section {
+    height: calc(100vh - 60px);
+    background-image: url('../images/herosection.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color:
+        rgb(255, 255, 255);
+    padding: 9.5px;
+    text-align: center;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    padding: 4px;
+    text-align: center;
+
+
+}
+
+p {
+    color: white;
+}
+
+#para1 {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 7px;
+    text-align: center;
+
+}
+
+#logo {
+    margin-left: .5%;
+    ;
+    width: 5%;
+    height: 10%;
+    margin-top: .12%;
+
+}
+
+#title {
+    width: 20%;
+    height: 5%;
+}
+/*DEMO ONLY*/
+
+.service-categories {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-size: cover;
+  }
+  
+  
+  /*DEMO ONLY*/
+  
+  .service-categories .card {
+    transition: all 0.3s;
+    width: 200px;
+  }
+  
+  .service-categories .card-title {
+    padding-top: 0.5em;
+  }
+  
+  .service-categories a:hover {
+    text-decoration: none;
+  }
+  
+  .service-card {
+    background: #5d727c;
+    border: 0;
+  }
+
+  .service-card img {
+    max-width: 100px;
+  }
+  
+  .service-card:hover {
+    background: rgba(255, 248, 248, 1);
+    box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.2)
+  }
+  
+  .fa {
+    color: white;
+  }
+  .fixedsize
+  {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  .component-container {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    align-content: center;
+    justify-content: center;
+}

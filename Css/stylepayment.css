@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.payment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.payment-method {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.method-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.method-description {
+    margin-top: 10px;
+}
+
+.payment-icon {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.google-pay {
+    color: #4285f4; /* Google Pay color */
+}
+
+.paytm {
+    color: #009688; /* Paytm color */
+}
+
+/* Add more styles for other payment methods as needed */
+
+.payment-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
