@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bus Ticket Recharge Plans</title>
+    <link rel="stylesheet" href="Css/stylerecharge.css">
+
+</head>
+
+<body>
+    <div class="plan-container">
+        <div class="ticket-plan">
+            <div class="plan-title">Basic Ticket</div>
+            <div class="plan-price"> &#8377; 100</div>
+            <div class="plan-details">
+                One-time ticket<br>
+                Standard seating
+            </div>
+            <button class="buy-button" onclick="openPaymentPage('basicTicketPayment.html')">Buy Now</button>
+        </div>
+
+        <div class="ticket-plan">
+            <div class="plan-title">Basic Ticket</div>
+            <div class="plan-price"> &#8377; 500</div>
+            <div class="plan-details">
+                One-time ticket<br>
+                Standard seating
+            </div>
+            <button class="buy-button" onclick="openPaymentPage('basicTicketPayment.html')">Buy Now</button>
+        </div>
+
+        <div class="ticket-plan">
+            <div class="plan-title">Basic-Ticket</div>
+            <div class="plan-price"> &#8377; 1000</div>
+            <div class="plan-details">
+                One-time ticket<br>
+                Standard seating
+            </div>
+            <button class="buy-button" onclick="openPaymentPage('basicTicketPayment.html')">Buy Now</button>
+        </div>
+    </div>
+    <br>
+    <h1 style="margin: 0 15% ">Bus Fare System</h1>
+    <br>
+    <div class="plan-container">
+        <div class="ticket-plan ticket_plan-lg">
+            <div class="plan-title" style="text-decoration: underline;">Non Ac Buses</div>
+            <br>
+            <div class="plan-details">
+                Up to 5 Kms Rs 5.00/-<br><br>
+                Between 5 Kms to 10 Kms Rs 10.00/-<br><br>
+                Between 10 Kms to 15 Kms Rs 15.00/-<br><br>
+                Above 15 Kms Rs 20.00/-
+            </div>
+            <br>
+            <img src="images/nonacbus.jpg" style="width: 450px; height: 200px;">
+
+        </div>
+
+        <div class="ticket-plan ticket_plan-lg">
+            <div class="plan-title" style="text-decoration: underline;">Air-Conditioned Buses</div>
+            <br>
+            <div class="plan-details">
+                Up to 5 Kms Rs 6.00/-<br><br>
+                Between 5 Kms to 10 Kms Rs 13.00/-<br><br>
+                Between 10 Kms to 15 Kms Rs 19.00/-<br><br>
+                Above 15 Kms Rs 25.00/-
+            </div>
+            <br>
+            <img src="images/bgimg.jpeg" style="width: 450px; height: 200px;">
+        </div>
+
+
+    </div>
+    <footer class="fixed-footer">
+
+        <p>©2023, All Rights Reserved, Smartcard-The E Ticket Public Transportation</p>
+    </footer>
+
+
+    <script>
+        function openPaymentPage(paymentPage) {
+            window.location.href = "payment.html";
+        }
+    </script>
+</body>
+
+</html>

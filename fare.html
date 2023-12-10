@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Css/stylefare.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1>Fare Calculator</h1>
+            <div class="dropdown-box">
+                <label for="source" class="label">Select Source:</label>
+                <select id="source">
+                    <option value="cityA">Vytilla Hub</option>
+                    <option value="cityB">Thrippunithura</option>
+                    <option value="cityC">Thiruvankulam</option>
+                    <option value="cityD">Puthenkurish</option>
+                    <option value="cityE">Kolenchery</option>
+                    <option value="cityF">Muvattupuzha</option>
+                </select>
+            </div>
+            <div class="dropdown-box">
+                <label for="destination" class="label">Select Destination:</label>
+                <select id="destination">
+                    <option value="cityA">Vytilla Hub</option>
+                    <option value="cityB">Thrippunithura</option>
+                    <option value="cityC">Thiruvankulam</option>
+                    <option value="cityD">Puthenkurish</option>
+                    <option value="cityE">Kolenchery</option>
+                    <option value="cityF">Muvattupuzha</option>
+                </select>
+            </div>
+            <hr>
+            <br>
+            <h2><span id="error"></span></h2>
+            <br>
+            <button class="btn" onclick="calculateFare()">Calculate Fare</button>
+
+            <button class="btn" onclick="resetForm()">Reset</button>
+        </center>
+    </div>
+    <footer>
+        <p>©2023, All Rights Reserved, Smartcard-The E-ticket Public Transportation</p>
+    </footer>
+    <script type="text/javascript" src="Js/Fare.js"></script>
+</body>
+</html>

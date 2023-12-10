@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset=utf-8">
+    <meta name="" viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="Css/styleregistration.css">
+    <title>Registeration form</title>
+
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Card Registration</title>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <br>
+                    <br>
+                    <h2 id="steps">Instructions For Using Smart card</h2>
+
+                    <h3>Step1 :Get Your Smart Card Activation Code Online</h3>
+                    <ul>
+                        <li>visit <a href="index.html">smartcard.in</a>
+                        <li>Go To Regitsration Poratl and Get Your Activation Code</li>
+                        <li>Enter your personal details exactly as they are mentioned on your Aadhaar card</li>
+
+                    </ul>
+                    <p1>Your Aadhaar details will be instantly verified online, and your unique card activation code
+                        will be generated.</p1>
+                    <h3>Step2 :Get A New Smart Card At Any SmartCard Centre</h3>
+                    <p1>Now you can visit any SmartCard Centre with your activation code and get a new Smart Card.</p1>
+                    <h3> Step3 :Board the bus and tap the smartcard on the designated card reader when you enter.</h3>
+                    <h3>Step4 :The fare will be deducted automatically from the card balance.</h3>
+                    <h3>Step5 :You may need to tap the card again when you exit the bus, for calculating fare</h3>
+                    <div class="row">
+                        <div class="column">
+                        <img src="images/Card.png"  style="height: 300px;width: 400px;">
+                        </div>
+                        <div class="column">
+                            <img src="images/card Reader.png"  style="height: 300px;width: 500px;">
+                        </div>
+                        </div>
+                </div>
+                <div class="column">
+                    <div class="registration-container">
+                        <h2>Smart Card Registration</h2>
+                        <form id="registrationForm" onsubmit="validateForm()">
+                            <label for="fullName">Full Name:</label>
+                            <input type="text" id="fullName" name="fullName" required>
+
+                            <label for="contactNumber">Contact Number:</label>
+                            <input type="tel" id="contactNumber" name="contactNumber" required>
+
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" id="dob" name="dob" required>
+
+                            <label for="adhar">Aadhaar Card Number:</label>
+                            <input type="tel" id="adhar" name="adhar" required>
+
+                            <label for="address">Address:</label>
+                            <textarea id="address" name="address" rows="5" required></textarea>
+                            <br>
+                            <span id="error" style="color: red;"></span>
+                            <input type="submit" value="Register">
+                        </form>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+
+            </div>
+        </div>
+        <footer>
+
+            <p>©2023, All Rights Reserved, Smartcard-The e Ticket Public Transportation</p>
+        </footer>
+        <script type="text/javascript" src="Js/Registration.js"></script>
+    </body>
+
+    </html>

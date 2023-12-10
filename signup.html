@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="Css/stylesignup.css">
+</head>
+
+<body>
+    <center>
+        <img src="images/name.jpg" width="500px" height="110px">
+    </center>
+
+
+    <div class="container">
+
+        <h2>Create a new account</h2>
+        <form action=action="#" method="POST" onsubmit="return validateForm()">
+            <input type="email" id="email" name="email" placeholder="email address" required>
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+            <input type="text" id="mobno" name="mobno" placeholder="mobile number" required>
+            <input type="password" id="password" name="password" placeholder=" password" required>
+            <span id="error" style="color: red;"></span>
+
+            <p>
+                People who use our service may have uploaded your Details information to SmartCard.
+                <br>
+                <br>
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS
+                notifications from us and can opt out at any time.
+            </p>
+            <div class="custom">
+
+            </div>
+            <input type="submit" value="Sign Up">
+            <h5>Have an account? <a href="login.html"> Log in</a></h6>
+    </div>
+    </form>
+       
+         <script type="text/javascript" src="Js/Signup.js"></script>
+</body >
+</html >

@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Methods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .payment-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .payment-method {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .method-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .method-description {
+            margin-top: 10px;
+        }
+
+        .payment-icon {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+
+        .google-pay {
+            color: #4285f4; /* Google Pay color */
+        }
+
+        .paytm {
+            color: #009688; /* Paytm color */
+        }
+
+        /* Add more styles for other payment methods as needed */
+
+        .payment-button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <div class="payment-method">
+            <div class="method-title">Credit Card</div>
+            <div class="payment-icon">💳</div>
+            <div class="method-description">
+                - Pay securely with your credit card.
+            </div>
+            <button class="payment-button">Select</button>
+        </div>
+
+        <div class="payment-method">
+            <div class="method-title">Google Pay</div>
+            <div class="payment-icon google-pay">G</div>
+            <div class="method-description">
+                - Convenient mobile payments with Google Pay.
+            </div>
+            <button class="payment-button">Select</button>
+        </div>
+
+        <div class="payment-method">
+            <div class="method-title">Paytm</div>
+            <div class="payment-icon paytm">P</div>
+            <div class="method-description">
+                - Pay easily with Paytm wallet.
+            </div>
+            <button class="payment-button">Select</button>
+        </div>
+
+        <!-- Add more payment methods with icons, descriptions, and buttons as needed -->
+
+    </div>
+</body>
+</html>
+
+
+
+

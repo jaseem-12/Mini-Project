@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>card reading Details</title>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/cardreading.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>Card Reading System</h3>
+                            <ul>
+                                <li>Approach the bus at the starting point and locate the card reader near the entrance.
+                                </li>
+                                <li>Swipe or tap the smart card on the reader to board the bus.</li>
+                                <li> The system deducts the appropriate fare as you board, ensuring a cashless and
+                                    efficient process.</li>
+                                <li> Your entry onto the bus is recorded in real-time, contributing to passenger
+                                    tracking and management.</li>
+                                <li>During the journey, the smart card serves as your travel pass, and there's no need
+                                    to interact with the card reader.</li>
+                                <li>When reaching the destination or ending point, approach the exit and find the card
+                                    reader near the door.</li>
+                                <li>Swipe or tap the smart card on the reader to register your exit from the bus</li>
+                                <li>The system adjusts the fare based on your journey, deducting the appropriate amount
+                                    for the distance traveled.</li>
+                            </ul>
+                            <img src="images/card Reader.png" width="80%">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-sm">
+                            <h3>Demo For Card Reading System</h3>
+                            <ul>
+                                <li>Scan the QR code below to get your location:</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <center>
+                                <div id="qrcode"></div>
+                                <button onclick="generateQRCode()"
+                                    style="background-color: #3498db; color: #ffffff;">Generate QR Code</button>
+
+                            </center>
+                            <br>
+                            <br>
+                            <ul>
+                                <li>Scan this code on starting point and ending point to get the locations.</li>
+                                <li>We can Find distance between starting point and ending point.</li>
+                                <li>cash will deducted from your smartcard based on your journey</li>
+                                <li>For Bus Fare System <a href="cardrecharge.html">Click Here</a></li>
+                            </ul>
+                            <br>
+
+                            <img src="images/cardread.jpg" width="100%" height="35%">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <footer>
+        <p>©2023, All Rights Reserved, Smartcard-The E-ticket Public Transportation</p>
+    </footer>
+    <script type="text/javascript" src="Js/cardreader.js"></script>
+    <!-- Include the QRCode.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</body>
+
+</html>
